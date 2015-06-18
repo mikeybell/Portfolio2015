@@ -1,0 +1,157 @@
+
+body {
+  position: relative;
+}
+
+/* FONTS */
+
+html,body {
+  font-family: 'Open Sans', sans-serif;
+  height:100%;
+}
+
+p {
+  font-size: 1em;
+  line-height: 22px;
+  color: #33454E;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  color: #706F68;
+  margin-top: 0;
+  margin-bottom: 60px;
+
+}
+
+h5 {
+  font-size: 2em;
+  font-weight: 300;
+  color: #EFE8DC;
+  margin-bottom: 20px;
+}
+
+h6 {
+  font-size: 1em;
+  font-weight: 300;
+  color: #EFE8DC;
+  margin-bottom: 35px;
+}
+
+/* NAVBAR */
+
+.navbar-default {
+  background: rgba(110,94,91,0.6);
+  box-shadow: none;
+  border: none;
+  font-size: 0.9em;
+}
+ 
+.nav.navbar-nav.navbar-right li a {
+  color: #EFE8DC;
+  text-shadow: none;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+  color: #EEAF74;
+  text-shadow: none;
+}
+
+.navbar-toggle {
+  border: 0;
+  background: #EFE8DC;
+}
+
+.navbar-collapse {
+  text-align: center;
+  border: none;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+      background: rgba(110,94,91,0.1);
+      color: #E08E73;
+ }
+
+ 
+
+
+
+/* HERO container */
+
+.hero-full {
+  height: 100vh;
+  background-color: rgba(0,0,0,0.8);
+  background: url(../img/bg-dt-94.jpg);
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-info {
+  background-color: rgba(111,95,92,0.5);
+  padding: 2em;
+  width: 250px;
+  height: 330px;
+  border-radius: 2%;
+}
+
+
+.v-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-44%,-50%);
+}
+
+.profile-pic {
+  border: 2px solid #e3e3e3;
+  margin-bottom: 30px;
+}
+
+.contact-btn {
+  background: #F3754E;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  text-shadow: none;
+  border-radius: 2;
+  border: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.contact-btn:hover {
+  background: #F3754E;
+}
+
+.down-arrow {
+  width: 38px;
+  margin-top: 30px;
+}
+
+
+/* HERO container */
+
+
+/* ABOUT container */
+
+.cont-about {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #EFE8DC;
+}
+
+.social-icon {
+  width: 50px;
+  margin: 55px 1.5% 0;
+}
+
+
+
+
+
