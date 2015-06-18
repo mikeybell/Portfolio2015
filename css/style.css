@@ -151,7 +151,24 @@ h6 {
   margin: 55px 1.5% 0;
 }
 
+/* ABOUT container */
 
+
+
+/* SKILLS container */
+
+.cont-skills {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: url(../img/bg-dt-94_blur.jpg);
+  width: 100%;
+  background-position: center center;
+}
+
+
+
+
+/* SKILLS container */
 
 
 
