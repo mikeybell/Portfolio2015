@@ -26,6 +26,12 @@ h1 {
 
 }
 
+h4 {
+  font-size: 1em;
+  font-weight: 300;
+  color: #EFE8DC;
+}
+
 h5 {
   font-size: 2em;
   font-weight: 300;
@@ -150,6 +156,40 @@ h6 {
   width: 50px;
   margin: 55px 1.5% 0;
 }
+
+/* ABOUT container */
+
+
+
+/* SKILLS container */
+
+.cont-skills {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: url(../img/bg-dt-94_blur.jpg);
+  width: 100%;
+  background-position: center bottom;
+}
+
+
+.progress {
+  background: #EEAF74;
+  border-radius: 0;
+  box-shadow: none;
+  height: 15px;
+}
+
+.progress-bar {
+  background: #A06A61;
+  box-shadow: none;
+}
+
+.indesign-fix {
+  margin-bottom: 10px;
+}
+
+
+/* SKILLS container */
 
 
 
