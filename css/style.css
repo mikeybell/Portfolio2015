@@ -193,6 +193,27 @@ h6 {
 /* SKILLS container */
 
 
+/* PORTFOLIO contatiner */
+
+.port-menu {
+  display: inline-block;
+  color: #33454E;
+  padding: 0 15px;
+}
+
+.btn-default {
+  background: none;
+  border: none;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+.btn-default:hover {
+  background: #EEAF74;
+  text-shadow: none;
+  border-radius: 0;
+  
+}
 
 
 
