@@ -13,6 +13,16 @@
  */
 // On document ready:
 
+// On document ready:
+
+$(function(){
+
+	// Instantiate MixItUp:
+
+	$('#container').mixItUp();
+
+});
+
 
 
 (function($, undf){
