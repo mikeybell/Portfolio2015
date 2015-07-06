@@ -195,10 +195,14 @@ h6 {
 
 /* PORTFOLIO contatiner */
 
+.portfolio-menu-space {
+  margin-bottom: 60px;
+}
+
 .port-menu {
   display: inline-block;
   color: #33454E;
-  padding: 0 15px;
+  padding: 0 10px;
 }
 
 .btn-default {
@@ -211,8 +215,12 @@ h6 {
 .btn-default:hover {
   background: #EEAF74;
   text-shadow: none;
-  border-radius: 0;
-  
+  box-shadow: none;
+  border-radius: 0; 
+}
+
+.port-thumb-cont {
+  margin: 20px auto;
 }
 
 

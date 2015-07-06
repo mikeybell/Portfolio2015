@@ -11,6 +11,9 @@
  *            Non-commercial use permitted under terms of CC-BY-NC license.
  *            http://creativecommons.org/licenses/by-nc/3.0/
  */
+// On document ready:
+
+
 
 (function($, undf){
 	
