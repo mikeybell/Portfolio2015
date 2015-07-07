@@ -27,7 +27,12 @@ h1 {
   color: #706F68;
   margin-top: 0;
   margin-bottom: 60px;
+}
 
+h2 {
+  font-size: 1.2em;
+  line-height: 22px;
+  color: #33454E;
 }
 
 h4 {
@@ -253,7 +258,55 @@ h6 {
 }
 
 
+/* MODAL */
 
+.modal-backdrop {
+  opacity: 0.7 !important;
+  background: rgb(110,94,91);
+}
+
+.modal-content {
+  border-radius: 4px;
+  background: #EFE8DC;
+  box-shadow: none;
+}
+
+.modal-header {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.modal-body {
+  padding-bottom: 0;
+  border-bottom: 1px solid #706F68;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.modal-close {
+  background: #EEAF74;
+  color: #706F68;
+  text-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  border: none;
+}
+
+.modal-close:hover {
+  background: #EEAF74;
+  color: #706F68;
+  text-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  border: none;
+}
+
+
+/* MODAL */
+
+/* PORTFOLIO contatiner */
 
 
 
