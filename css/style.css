@@ -35,6 +35,14 @@ h2 {
   color: #33454E;
 }
 
+h3 {
+  font-size: 0.8em;
+  line-height: 16px;
+  color: #33454E;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 h4 {
   font-size: 1em;
   font-weight: 300;
@@ -277,7 +285,6 @@ h6 {
 }
 
 .modal-body {
-  padding-bottom: 0;
   border-bottom: 1px solid #706F68;
 }
 
