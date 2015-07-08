@@ -40,7 +40,7 @@ h3 {
   line-height: 16px;
   color: #33454E;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 h4 {
@@ -286,6 +286,7 @@ h6 {
 
 .modal-body {
   border-bottom: 1px solid #706F68;
+  padding-top: 0;
 }
 
 .modal-footer {
@@ -308,6 +309,11 @@ h6 {
   box-shadow: none;
   border-radius: 0;
   border: none;
+}
+
+.modal-image {
+  width: 100%;
+  margin: 10px 0;
 }
 
 
