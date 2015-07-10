@@ -211,6 +211,23 @@ h6 {
 /* /SKILLS container */
 
 
+/* CLIENTS container */
+
+
+.cont-clients {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #706F68;
+}
+
+.cont-clients>h1 {
+  color: #EFE8DC;
+  margin-bottom: 0;
+}
+
+
+
+
 /* PORTFOLIO contatiner */
 
 .portfolio-menu-space {
