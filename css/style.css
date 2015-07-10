@@ -190,6 +190,10 @@ h6 {
   background-position: center bottom;
 }
 
+.cont-skills>h1 {
+  color: #EFE8DC;
+}
+
 
 .progress {
   background: #EEAF74;
