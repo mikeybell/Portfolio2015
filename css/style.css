@@ -231,6 +231,13 @@ h6 {
   margin-bottom: 0;
 }
 
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
 
 
 
