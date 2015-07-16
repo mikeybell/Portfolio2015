@@ -1,0 +1,20 @@
+@media screen and (max-width: 850px) {
+
+.modal-image-sm {
+	width: 100%;
+}
+
+}
+
+
+@media screen and (max-width: 400px) {
+
+.social-icon, .social-icon-ft {
+	width: 40px;
+}
+
+h1 {
+	letter-spacing: 0;
+}
+
+}

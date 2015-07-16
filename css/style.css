@@ -1,4 +1,10 @@
 
+/* MIX IT UP -- default display hidden */
+#container .mix{
+  display: none;
+}
+
+
 body {
   position: relative;
 }
@@ -20,10 +26,24 @@ h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 40px;
   font-weight: 300;
+  letter-spacing: 10px;
   color: #706F68;
   margin-top: 0;
   margin-bottom: 60px;
+}
 
+h2 {
+  font-size: 1.2em;
+  line-height: 22px;
+  color: #F3754E;
+}
+
+h3 {
+  font-size: 0.9em;
+  line-height: 16px;
+  color: #33454E;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 h4 {
@@ -79,9 +99,10 @@ h6 {
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
       background: rgba(110,94,91,0.1);
-      color: #E08E73;
+      color: #EEAF74;
  }
 
+/* /NAVBAR */
  
 
 
@@ -142,7 +163,7 @@ h6 {
 }
 
 
-/* HERO container */
+/* /HERO container */
 
 
 /* ABOUT container */
@@ -158,7 +179,7 @@ h6 {
   margin: 55px 1.5% 0;
 }
 
-/* ABOUT container */
+/* /ABOUT container */
 
 
 
@@ -172,10 +193,14 @@ h6 {
   background-position: center bottom;
 }
 
+.cont-skills>h1 {
+  color: #EFE8DC;
+}
+
 
 .progress {
   background: #EEAF74;
-  border-radius: 0;
+  border-radius: 3px;
   box-shadow: none;
   height: 15px;
 }
@@ -190,9 +215,178 @@ h6 {
 }
 
 
-/* SKILLS container */
+/* /SKILLS container */
+
+
+/* CLIENTS container */
+
+
+.cont-clients {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #6F5F5C;
+}
+
+.cont-clients>h1 {
+  color: #EFE8DC;
+  margin-bottom: 0;
+}
+
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 
 
+
+
+/* PORTFOLIO contatiner */
+
+.portfolio-menu-space {
+  margin-bottom: 60px;
+}
+
+.port-menu {
+  display: inline-block;
+  color: #706F68;
+  padding: 0 10px;
+}
+
+.btn-port {
+  background: none;
+  border: none;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+.btn-port:hover {
+  background: #EEAF74;
+  color: #706F68;
+  text-shadow: none;
+  box-shadow: none;
+  border-radius: 3px;
+}
+
+.port-menu.active {
+  box-shadow: none;
+  background: #EEAF74;
+  border-radius: 3px;
+}
+
+
+.thumb-title-fix {
+  position: relative;
+  background: #706F68;
+  margin-bottom: 30px;
+}
+
+.thumb-desc {
+  position: absolute;
+  width: 100%;
+  background: rgba(0,0,0,0.4);
+  padding: 20px 20px;
+  bottom: 0;
+  color: #EFE8DC;
+  font-size: .9em;
+}
+
+.thumb-title-fix img{
+  width: 100%;
+  height: auto;
+}
+
+
+/* MODAL */
+
+.modal-backdrop {
+  opacity: 0.7 !important;
+  background: rgb(110,94,91);
+}
+
+.modal-content {
+  border-radius: 4px;
+  background: #EFE8DC;
+  box-shadow: none;
+}
+
+.modal-header {
+  border-bottom: 1px solid rgba(110,94,91,0.3);
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.modal-body {
+  border-bottom: 1px solid rgba(110,94,91,0.3);
+  padding-top: 20px;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.modal-close {
+  background: #EEAF74;
+  color: #706F68;
+  text-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  border: none;
+}
+
+.modal-close:hover {
+  background: #EEAF74;
+  color: #706F68;
+  text-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  border: none;
+}
+
+.modal-image {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.modal-image-sm {
+  width: 60%;
+  margin: 10px auto;
+}
+
+
+/* /MODAL */
+
+/* /PORTFOLIO contatiner */
+
+
+/* FOOTER container */
+
+.cont-footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #333;
+}
+
+.social-icon-ft {
+  width: 50px;
+  margin: 0 1.5%;
+}
+
+
+
+/* COPYRIGHT container */
+
+.cont-copyright {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #333;
+}
+
+.cont-copyright h6{
+  margin: 0 auto;
+  font-size: .8em;
+
+}
 
 
