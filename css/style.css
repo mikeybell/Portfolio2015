@@ -98,7 +98,7 @@ h6 {
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
       background: rgba(110,94,91,0.1);
-      color: #E08E73;
+      color: #EEAF74;
  }
 
 /* /NAVBAR */
@@ -359,4 +359,17 @@ h6 {
 /* /PORTFOLIO contatiner */
 
 
+/* FOOTER container */
+
+.cont-footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #333;
+}
+
+.social-icon-ft {
+  width: 50px;
+  margin: 0 1.5% 50px;
+}
+}
 
