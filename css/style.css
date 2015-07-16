@@ -224,7 +224,7 @@ h6 {
 .cont-clients {
   padding-top: 50px;
   padding-bottom: 50px;
-  background: #E18F74;
+  background: #6F5F5C;
 }
 
 .cont-clients>h1 {
@@ -363,14 +363,30 @@ h6 {
 /* FOOTER container */
 
 .cont-footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background: #333;
 }
 
 .social-icon-ft {
   width: 50px;
-  margin: 0 1.5% 50px;
+  margin: 0 1.5%;
 }
+
+
+
+/* COPYRIGHT container */
+
+.cont-copyright {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #333;
 }
+
+.cont-copyright h6{
+  margin: 0 auto;
+  font-size: .8em;
+
+}
+
 
