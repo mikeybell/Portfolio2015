@@ -63,7 +63,7 @@ h6 {
   font-size: 1em;
   font-weight: 300;
   color: #EFE8DC;
-  margin-bottom: 35px;
+  margin: 5px auto;
 }
 
 /* NAVBAR */
@@ -151,9 +151,14 @@ h6 {
   border: 0;
   width: 100%;
   padding: 10px 0;
+  margin-top: 20px;
 }
 
 .contact-btn:hover {
+  background: #F3754E;
+}
+
+.contact-btn:active {
   background: #F3754E;
 }
 
